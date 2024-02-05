@@ -9,7 +9,6 @@
 }: let
   unstable-packages = with pkgs.unstable; [
     # FIXME: select your core binaries that you always want on the bleeding-edge
-    atuin
     bat
     bottom
     coreutils
