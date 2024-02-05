@@ -35,7 +35,6 @@
     tree
     unzip
     vim
-    vscode
     wget
     zip
     zellij
