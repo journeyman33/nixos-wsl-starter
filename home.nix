@@ -9,11 +9,13 @@
 }: let
   unstable-packages = with pkgs.unstable; [
     # FIXME: select your core binaries that you always want on the bleeding-edge
+    atuin
     bat
     bottom
     coreutils
     curl
     du-dust
+    helix
     fd
     findutils
     fx
@@ -22,18 +24,22 @@
     htop
     jq
     killall
+    lazygit
     lunarvim
     mosh
     neovim
     procs
     ripgrep
     sd
+    tealdeer
     tmux
     tree
     unzip
     vim
+    vscode
     wget
     zip
+    zellij
   ];
 
   stable-packages = with pkgs; [
@@ -160,8 +166,8 @@ in {
         side-by-side = true;
         navigate = true;
       };
-      userEmail = ""; # FIXME: set your git email
-      userName = ""; #FIXME: set your git username
+      userEmail = "voslooc@gmail.com"; ##
+      userName = "Charles Vosloo"; ##
       extraConfig = {
         # FIXME: uncomment the next lines if you want to be able to clone private https repos
         # url = {
