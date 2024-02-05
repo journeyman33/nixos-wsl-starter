@@ -204,9 +204,6 @@ in {
       history.ignoreSpace = true;
       historySubstringSearch.enable = true;
 
-      ## atuin
-      eval "$(atuin init zsh)"; 
-
       plugins = [
         {
           name = "fast-syntax-highlighting";
