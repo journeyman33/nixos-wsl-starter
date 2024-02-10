@@ -25,6 +25,7 @@
     killall
     lazygit
     lunarvim
+    lf
     mosh
     neovim
     procs
@@ -202,6 +203,8 @@ in {
       history.ignoreDups = true;
       history.ignoreSpace = true;
       historySubstringSearch.enable = true;
+      
+      
 
       plugins = [
         {
