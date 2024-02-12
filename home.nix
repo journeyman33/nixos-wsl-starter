@@ -204,7 +204,7 @@ in {
       history.ignoreDups = true;
       history.ignoreSpace = true;
       historySubstringSearch.enable = true;
-      extraCommands = "eval \"\$(fnm env)\"";    ##
+      # extraCommands = "eval \"\$(fnm env)\"";    ##
       
 
       plugins = [
