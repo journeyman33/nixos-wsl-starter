@@ -15,6 +15,7 @@
     curl
     du-dust
     helix
+    fnm 
     fd
     findutils
     fx
